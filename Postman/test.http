@@ -1,0 +1,22 @@
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "message": "Hello, server! This is JSON data from Postman"
+}
+
+###
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "Message1": "You aren't supposed to see this message"
+}
+
+###
+POST http://localhost:8080
+Content-Type: application/json
+
+{
+  "MESSAGE": "Hello, server!"
+}
